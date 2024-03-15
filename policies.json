@@ -1,0 +1,56 @@
+{
+ "policies": {
+   "BlockAboutConfig": true,
+   "BlockAboutAddons": true, 
+   "Proxy": {
+     "Locked": true,
+     "Mode": "system"
+   },
+   "DisableForgetButton": true,
+   "DisablePrivateBrowsing": true,
+   "DisableSecurityBypass": {
+      "InvalidCertificate": true,
+      "SafeBrowsing": true
+    },
+
+    "Cookies": {
+      "Default": true,
+      "AcceptThirdParty": "never",
+      "RejectTracker": true,
+      "Locked": true,
+      "Behavior": "reject-foreign"
+    },
+    
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": true,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true
+    },
+    
+    "ExtensionSettings": {
+      "*": {
+        "blocked_install_message": "You can not install this extension.",
+        "installation_mode": "blocked"
+      },
+
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      },
+      "addon@darkreader.org": {
+      	"installation_mode": "allowed"
+      },
+      "info@haramblur.com":{
+      	"installation_mode": "allowed",
+	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/haramblur/latest.xpi"
+      }
+    },
+
+
+   "WebsiteFilter": {
+      "Block": ["*://*.youtube.com/*", "*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.tiktok.com/*", "*://*.tinder.com/*", "*://*.snapchat.com/*", "*://*.instagram.com/*", "*://*.twitch.tv/*", "*://*.reddit.com/*", "*://*.dailymotion.com/*", "*://*.pinterest.com/*", "*://*.vimeo.com/*", "*://*.netflix.com/*", "*://*.imgur.com/*", "*://*.spotify.com/*", "*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.spankbang.com/*", "*://*.xnxx.com/*", "*://*.yahoo.com/*", "*://*.amazon.com/*", "*://*.bing.com/*", "*://*.fandom.com/*", "*://*.baidu.com/*", "*://*.yandex.ru/*", "*://*.xhamster.com/*", "*://*.xhamster.desi/*", "*://*.discord.com/*", "*://*.ome.tv/*", "*://*.thepiratebay.org/*", "*://*.yts.mx/*", "*://*.1377x.is/*", "*://*.seedr.cc/*", "*://*.1377x.to/*"]
+    }
+ }
+}
