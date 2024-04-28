@@ -31,7 +31,7 @@
     
     "ExtensionSettings": {
       "*": {
-        "blocked_install_message": "You can not install this extension.",
+        "blocked_install_message": "You can not install this extension. Inform your admin to give you access.",
         "installation_mode": "blocked"
       },
 
@@ -45,12 +45,29 @@
       "info@haramblur.com":{
       	"installation_mode": "allowed",
 	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/haramblur/latest.xpi"
+      },
+      "save-as-pdf-ff@pdfcrowd.com":{
+      	"installation_mode": "allowed",
+	"install_url": "https://addons.mozilla.org/firefox/downloads/latest/save-as-pdf/latest.xpi"
+      },
+      "queryamoid@kaply.com":{
+      	"installation_mode": "force_installed",
+	"install_url": "https://github.com/mkaply/queryamoid/releases/download/v0.1/query_amo_addon_id-0.1-fx.xpi"
       }
+
+
     },
 
 
    "WebsiteFilter": {
-      "Block": ["*://*.youtube.com/*", "*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.tiktok.com/*", "*://*.tinder.com/*", "*://*.snapchat.com/*", "*://*.instagram.com/*", "*://*.twitch.tv/*", "*://*.reddit.com/*", "*://*.dailymotion.com/*", "*://*.pinterest.com/*", "*://*.vimeo.com/*", "*://*.netflix.com/*", "*://*.imgur.com/*", "*://*.spotify.com/*", "*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.spankbang.com/*", "*://*.xnxx.com/*", "*://*.yahoo.com/*", "*://*.amazon.com/*", "*://*.bing.com/*", "*://*.fandom.com/*", "*://*.baidu.com/*", "*://*.yandex.ru/*", "*://*.xhamster.com/*", "*://*.xhamster.desi/*", "*://*.discord.com/*", "*://*.ome.tv/*", "*://*.thepiratebay.org/*", "*://*.yts.mx/*", "*://*.1377x.is/*", "*://*.seedr.cc/*", "*://*.1377x.to/*"]
+      "Block": ["*://*.youtube.com/*", "*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.tiktok.com/*",
+      "*://*.tinder.com/*", "*://*.snapchat.com/*", "*://*.instagram.com/*", "*://*.twitch.tv/*", "*://*.reddit.com/*",
+      "*://*.dailymotion.com/*", "*://*.pinterest.com/*", "*://*.vimeo.com/*", "*://*.netflix.com/*",
+      "*://*.imgur.com/*", "*://*.spotify.com/*", "*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.spankbang.com/*",
+      "*://*.xnxx.com/*", "*://*.yahoo.com/*", "*://*.amazon.com/*", "*://*.bing.com/*", "*://*.fandom.com/*",
+      "*://*.baidu.com/*", "*://*.yandex.ru/*", "*://*.xhamster.com/*", "*://*.xhamster.desi/*", "*://*.discord.com/*",
+      "*://*.ome.tv/*", "*://*.thepiratebay.org/*", "*://*.yts.mx/*", "*://*.1377x.is/*", "*://*.seedr.cc/*",
+      "*://*.1377x.to/*", "*://*.linkedin.com/*", "*://*.snackvideo.com/*", "*://*.bigo.tv/*", "*://*.bajao.pk/*"]
     }
  }
 }
