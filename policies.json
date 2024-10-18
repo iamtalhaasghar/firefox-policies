@@ -42,6 +42,9 @@
       "addon@darkreader.org": {
       	"installation_mode": "allowed"
       },
+      "weburdu@iamtalhaasghar.github.io": {
+      	"installation_mode": "allowed"
+      },
       "info@haramblur.com":{
       	"installation_mode": "allowed",
 	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/haramblur/latest.xpi"
