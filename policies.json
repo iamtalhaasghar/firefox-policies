@@ -45,6 +45,9 @@
       "weburdu@iamtalhaasghar.github.io": {
       	"installation_mode": "allowed"
       },
+      "@testpilot-containers": {
+      	"installation_mode": "allowed"
+      },
       "info@haramblur.com":{
       	"installation_mode": "allowed",
 	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/haramblur/latest.xpi"
@@ -65,7 +68,7 @@
       "*://*.tinder.com/*", "*://*.snapchat.com/*", "*://*.instagram.com/*", "*://*.twitch.tv/*", "*://*.reddit.com/*",
       "*://*.dailymotion.com/*", "*://*.pinterest.com/*", "*://*.vimeo.com/*", "*://*.netflix.com/*",
       "*://*.imgur.com/*", "*://*.spotify.com/*", "*://*.pornhub.com/*", "*://*.xvideos.com/*", "*://*.spankbang.com/*",
-      "*://*.xnxx.com/*", "*://*.yahoo.com/*", "*://*.amazon.com/*", "*://*.bing.com/*", "*://*.fandom.com/*",
+      "*://*.xnxx.com/*", "*://*.yahoo.com/*", "*://*.bing.com/*", "*://*.fandom.com/*",
       "*://*.baidu.com/*", "*://*.yandex.ru/*", "*://*.xhamster.com/*", "*://*.xhamster.desi/*", "*://*.discord.com/*",
       "*://*.ome.tv/*", "*://*.thepiratebay.org/*", "*://*.yts.mx/*", "*://*.1377x.is/*", "*://*.seedr.cc/*",
       "*://*.1377x.to/*", "*://*.linkedin.com/*", "*://*.snackvideo.com/*", "*://*.bigo.tv/*", "*://*.bajao.pk/*"]
